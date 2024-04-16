@@ -1,0 +1,21 @@
+<div class="form-container sign-up">
+    <form (ngSubmit)="onSignUp()">
+
+      <h1 id="h1">Create account</h1><br>
+    
+      <input type="text" placeholder="first Name" [(ngModel)]="firstname" name="firstname" required >
+
+      <input type="text" placeholder="Last Name"[(ngModel)]="lastname" name="lastname" required="">
+      
+      <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required>
+    
+      <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+    
+      <button type="submit">Sign Up</button>
+      
+    </form> 
+</div>
+
+
+
+
